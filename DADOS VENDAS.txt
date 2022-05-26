@@ -1,0 +1,30 @@
+Algoritmo "enderecoPessoa"
+// Algoritmo para inserir e mostrar na tela o endereço da pessoa
+
+  // Seção de Declarações das variáveis
+var rua, numero, cep, bairro, cidade, estado : caractere
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   escreva("Digite o estado que vôce mora: ")
+   leia(estado)
+   
+   escreva("Digite o nome da sua cidade:" )
+   leia(cidade)
+   
+    escreva("Digite seu CEP: " )
+   leia(cep)
+   
+   escreva("Digite o nome do seu baírro: ")
+   leia(bairro)
+   
+   escreva("Digite o nome da sua rua: ")
+   leia(rua)
+   
+   escreva("Digite o número da sua casa: " )
+   leia(numero)
+   
+   escreva ("Seu endereço é: " + rua, "," + numero, " Baírro: " + bairro, " " + cep, " " + cidade, "-" + estado)
+
+Fimalgoritmo
