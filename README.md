@@ -8,7 +8,6 @@
 
  ### Documentação
 
-1 - [Exercicio 1](https://github.com/Cristhian-Cezar/beacademy-devstart-logicadeprogramacao/blob/main/exercicio-1.txt) (Algoritmo para inserir e mostrar na tela o endereço da pessoa)
+- [Exercicio 1](https://github.com/Cristhian-Cezar/beacademy-devstart-logicadeprogramacao/blob/main/exercicio-1.txt) (Algoritmo para inserir e mostrar na tela o endereço da pessoa)
+- [Exercicio 2](https://github.com/Cristhian-Cezar/beacademy-devstart-logicadeprogramacao/blob/main/exercicio-2.txt) ()
 
-- [Exercicio 1](https://link-da-documentação) (Algoritmo para inserir e mostrar na tela o endereço da pessoa)
-- [Exercicio 2](https://link-da-documentação) (Algoritmo para inserir e mostrar na tela o endereço da pessoa)
