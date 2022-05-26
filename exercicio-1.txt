@@ -1,24 +1,30 @@
-Algoritmo "algoritmoParaImc"
-// algoritmo para calular o IMC
+Algoritmo "algoritmoMostrarEndereço"
+// algoritmo para solitiar o endereço e mostrar na tela
 
   // Seção de Declarações das variáveis
-var pessoa : caractere
-    peso, altura : real
+var rua, numero, cep, bairro, cidade, estado : caractere
+
 
 Inicio
-
 // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreva("Digite seu nome completo: ")
-   leia(pessoa)
-
-   escreva("Digite seu peso: ")
-   leia(peso)
-
-   escreva("Digite sua altura: ")
-   leia (altura)
-
-   escreval("Seu nome é: ", pessoa,", ", "Seu peso é:", peso,"Kg, ", "Seu nome é:", altura)
-
-   escreva("Seu IMC é: ", (peso/(altura*altura)))
-
-Fimalgoritmo
+   escreva("Digite o nome do estado que vôce mora: ")
+   leia (estado)
+   
+   escreva("Digite o nome da sua Cidade: ")
+   leia(cidade)
+   
+   escreva("Digite o CEP que voce mora: ")
+   leia(cep)
+   
+   escreva("Digite o seu Baírro:" )
+   leia(bairro)
+   
+   escreva("Digite o nome da rua que você mora: ")
+   leia(rua)
+   
+   escreva("Digite o número da sua casa: ")
+   leia(numero)
+   
+   escreva("Seu endereço é: " + rua, "," + numero, " " + bairro, " CEP:" + cep, " " + cidade,"-" + estado)
+   
+Fimalgoritmomo
