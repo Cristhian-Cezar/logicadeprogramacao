@@ -1,8 +1,11 @@
 
-# Exercícios de Lógica de Programação Em Portugol
+# Exercícios de Lógica de Programação
+  Em Portugol
 
 
-- Exercícios criados durante as aulas de "Introdução a Lógica de Programação - sprint 4"
+- Exercícios criados durante as aulas 
+de "Introdução a Lógica de Programação 
+- sprint 4"
 ###
 
 
