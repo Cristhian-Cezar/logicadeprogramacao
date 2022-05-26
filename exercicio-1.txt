@@ -1,30 +1,24 @@
-Algoritmo "enderecoPessoa"
-// Algoritmo para inserir e mostrar na tela o endereço da pessoa
+Algoritmo "algoritmoParaImc"
+// algoritmo para calular o IMC
 
   // Seção de Declarações das variáveis
-var rua, numero, cep, bairro, cidade, estado : caractere
-
+var pessoa : caractere
+    peso, altura : real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-   escreva("Digite o estado que vôce mora: ")
-   leia(estado)
-   
-   escreva("Digite o nome da sua cidade:" )
-   leia(cidade)
-   
-    escreva("Digite seu CEP: " )
-   leia(cep)
-   
-   escreva("Digite o nome do seu baírro: ")
-   leia(bairro)
-   
-   escreva("Digite o nome da sua rua: ")
-   leia(rua)
-   
-   escreva("Digite o número da sua casa: " )
-   leia(numero)
-   
-   escreva ("Seu endereço é: " + rua, "," + numero, " Baírro: " + bairro, " " + cep, " " + cidade, "-" + estado)
+
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   escreva("Digite seu nome completo: ")
+   leia(pessoa)
+
+   escreva("Digite seu peso: ")
+   leia(peso)
+
+   escreva("Digite sua altura: ")
+   leia (altura)
+
+   escreval("Seu nome é: ", pessoa,", ", "Seu peso é:", peso,"Kg, ", "Seu nome é:", altura)
+
+   escreva("Seu IMC é: ", (peso/(altura*altura)))
 
 Fimalgoritmo
