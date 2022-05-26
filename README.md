@@ -8,4 +8,4 @@
 
  ### Documentação
 
-- [Exercicio 1](https://link-da-documentação) (Algoritmo para inserir e mostrar na tela o endereço da pessoa)
+1 - [Exercicio 1](https://link-da-documentação) (Algoritmo para inserir e mostrar na tela o endereço da pessoa)
