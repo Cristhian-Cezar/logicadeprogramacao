@@ -9,11 +9,15 @@ Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
    escreva("Digite seu nome completo: ")
    leia(pessoa)
+
    escreva("Digite seu peso: ")
    leia(peso)
+
    escreva("Digite sua altura: ")
    leia (altura)
 
    escreval("Seu nome é: ", pessoa,", ", "Seu peso é:", peso,"Kg, ", "Seu nome é:", altura)
+
    escreva("Seu IMC é: ", (peso/(altura*altura)))
+
 Fimalgoritmo
