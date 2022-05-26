@@ -1,0 +1,19 @@
+Algoritmo "algoritmoParaImc"
+// algoritmo para calular o IMC
+
+  // Seção de Declarações das variáveis
+var pessoa : caractere
+    peso, altura, imc : real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   escreva("Digite seu nome completo: ")
+   leia(pessoa)
+   escreva("Digite seu peso: ")
+   leia(peso)
+   escreva("Digite sua altura: ")
+   leia (altura)
+   
+   escreval("Seu nome é: ", pessoa,", ", "Seu peso é:", peso,", ", "Seu nome é:", altura)
+   escreva("Seu IMC é: ", (peso/(altura*altura)))
+Fimalgoritmo
