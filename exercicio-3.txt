@@ -1,0 +1,23 @@
+Algoritmo "algoritmoDeOperadoresAritmeticos"
+
+Var nome : caractere
+    idade : inteiro
+
+
+Inicio
+
+      escreva("Digite seu nome: ")
+      leia(nome)
+      escreva("Digite sua idade: ")
+      leia(idade)
+      
+      escreval("Seu nome é ", nome, " e vôce tem", idade, " anos")
+
+      escreval("Você tem mais de 18 anos? ", (idade > 18))
+      escreval("Você tem 25 anos? ", (idade = 25))
+      escreval("Sua idade é diferente de 25 anos e seu nome é Marcos? ",((idade = 25) E (nome <> "Marcos")))
+      escreval("Você tem 25 anos ou seu nome é Marcos? ", ((idade <> 25) OU (nome = "Marcos")))
+      escreval("A sua idade dividida por 2 é igual a zero? ", (idade/2 = 0))
+
+
+Fimalgoritmo
