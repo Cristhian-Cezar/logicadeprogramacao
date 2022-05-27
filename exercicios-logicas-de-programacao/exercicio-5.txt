@@ -1,30 +1,34 @@
-Algoritmo "algoritmoMostrarEndereço"
-// algoritmo para solitiar o endereço e mostrar na tela
+Algoritmo "classificacaoIMC"
 
-  // Seção de Declarações das variáveis
-var rua, numero, cep, bairro, cidade, estado : caractere
+Var altura, peso, imc : real
+resultado : caractere
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-   escreva("Digite o nome do estado que vôce mora: ")
-   leia (estado)
-   
-   escreva("Digite o nome da sua Cidade: ")
-   leia(cidade)
-   
-   escreva("Digite o CEP que voce mora: ")
-   leia(cep)
-   
-   escreva("Digite o seu Baírro:" )
-   leia(bairro)
-   
-   escreva("Digite o nome da rua que você mora: ")
-   leia(rua)
-   
-   escreva("Digite o número da sua casa: ")
-   leia(numero)
-   
-   escreva("Seu endereço é: " + rua, "," + numero, " " + bairro, " CEP:" + cep, " " + cidade,"-" + estado)
-   
-Fimalgoritmomo
+      escreval("Digite seu peso: ")
+      leia(peso)
+      escreva("Digite sua altura: ")
+      leia(altura)
+
+      imc <- (peso/(altura*altura))
+
+      escreval("Seu IMC é: ",imc)
+         se (imc <19) então
+      escreval("Abaixo do Peso")
+      senão
+         se imc < 25 então
+      escreval("Peso Normal")
+      senao
+         se imc < 30 então
+      escreval("Sobrepeso")
+      senao
+         se imc < 40 então
+      escreval("Obesidade tipo 1")
+      senao
+      escreval("Obesidade morbida")
+      fimse
+      fimse
+      fimse
+      fimse
+
+Fimalgoritmo
