@@ -1,30 +1,16 @@
-Algoritmo "algoritmoMostrarEndereço"
-// algoritmo para solitiar o endereço e mostrar na tela
+Algoritmo "algoritmoParaReceberDepositoMostrarSaldo"
 
-  // Seção de Declarações das variáveis
-var rua, numero, cep, bairro, cidade, estado : caractere
-
+Var deposito, valorInicial : real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-   escreva("Digite o nome do estado que vôce mora: ")
-   leia (estado)
-   
-   escreva("Digite o nome da sua Cidade: ")
-   leia(cidade)
-   
-   escreva("Digite o CEP que voce mora: ")
-   leia(cep)
-   
-   escreva("Digite o seu Baírro:" )
-   leia(bairro)
-   
-   escreva("Digite o nome da rua que você mora: ")
-   leia(rua)
-   
-   escreva("Digite o número da sua casa: ")
-   leia(numero)
-   
-   escreva("Seu endereço é: " + rua, "," + numero, " " + bairro, " CEP:" + cep, " " + cidade,"-" + estado)
-   
-Fimalgoritmomo
+
+      valorInicial <- 1000
+
+      escreval("Valor de deposito recebido: " )
+      leia(deposito)
+      escreval("Valor inicial: ", valorInicial)
+      escreval("Valor depositado: ", deposito)
+      escreval("seu saldo atual é: ", (valorInicial + deposito))
+
+
+Fimalgoritmo
