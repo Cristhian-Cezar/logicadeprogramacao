@@ -1,30 +1,39 @@
-Algoritmo "algoritmoMostrarEndereço"
-// algoritmo para solitiar o endereço e mostrar na tela
+Algoritmo "saqueDeposito"
 
-  // Seção de Declarações das variáveis
-var rua, numero, cep, bairro, cidade, estado : caractere
-
+Var operacao : caractere
+    valorDeposito, valorSaque, saldo, saldoAtual : real
+    
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-   escreva("Digite o nome do estado que vôce mora: ")
-   leia (estado)
-   
-   escreva("Digite o nome da sua Cidade: ")
-   leia(cidade)
-   
-   escreva("Digite o CEP que voce mora: ")
-   leia(cep)
-   
-   escreva("Digite o seu Baírro:" )
-   leia(bairro)
-   
-   escreva("Digite o nome da rua que você mora: ")
-   leia(rua)
-   
-   escreva("Digite o número da sua casa: ")
-   leia(numero)
-   
-   escreva("Seu endereço é: " + rua, "," + numero, " " + bairro, " CEP:" + cep, " " + cidade,"-" + estado)
-   
-Fimalgoritmomo
+      escreval("Olá, seja bem vindo(a) ao caixa eletrônico")
+      escreval("Digite (1) para Saque e (2) para deposito")
+      leia(operacao)
+      
+      saldo <- 1000
+      se(operacao = "1") entao
+      escreva("Digite o valor do saque: ")
+      leia(valorSaque)
+      saldoAtual <- saldo - valorSaque
+      
+      senao
+      se(operacao = "2")entao
+      escreva("Digite o valor de Deposito: ")
+      leia(valorDeposito)
+      saldoAtual <- saldo + valorDeposito
+      
+      senao
+      escreva("Opção inválida!")
+      fimse
+      fimse
+      
+      se(operacao = "1")entao
+      escreval("Você Sacou: ", valorSaque, " reais")
+      senao
+      escreval("Voce depositou ", valorDeposito, " reais")
+      fimse
+
+      escreval("Saldo inicial: ", saldo)
+      escreva("Saldo atual: ", saldoAtual)
+
+
+Fimalgoritmo
