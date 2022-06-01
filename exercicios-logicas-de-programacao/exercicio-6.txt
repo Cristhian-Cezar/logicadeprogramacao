@@ -1,4 +1,4 @@
-Algoritmo "mostrarIdade"
+Algoritmo "classificandoIdade"
 
 Var nome : caractere
     idade : inteiro
@@ -9,14 +9,22 @@ Inicio
       leia(nome)
       escreva("Digite sua idade: ")
       leia(idade)
-
-      se(idade < 18) entao
-      escreva(nome, ", você tem ", idade, " anos. Você é menor de idade!")
+      
+      se (idade <= 0) entao
+      escreval("Idade inválida, Sua idade precisa ser acima de 0")
+      senao
+      se idade < 18 entao
+      escreval("Você tem ", idade, " anos de idade, nesse caso você é Menor de idade")
       senao
       se idade < 60 entao
-      escreva(nome, ", você tem ", idade, " anos. Você é adulto!")
+      escreval("Você tem ", idade, " anos de idade, nesse caso você é Adulto")
       senao
-      escreva(nome, ", você tem ", idade, " anos. Você é idoso!")
+      se idade < 125 entao
+      escreval("Você tem ", idade, " anos de idade, nesse caso você é Idoso")
+      senao
+      escreval("Eu acho que você está morto")
+      fimse
+      fimse
       fimse
       fimse
 
