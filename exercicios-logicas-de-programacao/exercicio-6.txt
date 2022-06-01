@@ -1,4 +1,4 @@
-Algoritmo "classificandoIdade"
+Algoritmo "classificadorIdades"
 
 Var nome : caractere
     idade : inteiro
